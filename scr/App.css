@@ -1,0 +1,133 @@
+/* App.css */
+
+body {
+  background-color: #eaf5e0; /* Light green background color for the entire page */
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.header {
+  background-color: #4caf50; /* Dark green header background color */
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+.main-content {
+  padding: 1em;
+}
+
+.section {
+  margin-bottom: 1.5em; /* Add some space between sections */
+  padding: 1em;
+  background-color: #e8f1e3; /* Light green background color for sections */
+}
+
+.footer {
+  background-color: #4caf50; /* Dark green footer background color */
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+/* App.css */
+
+
+/* Adjust spacing between components */
+.header,
+.footer {
+  margin-bottom: 1em;
+}
+
+.main-content {
+  margin-bottom: 25em;
+}
+
+
+/* Adjust spacing between components */
+.section:not(:last-child) {
+  margin-bottom: 2em; /* Increase space between sections except for the last one */
+}
+
+
+.header {
+  background-color: #4caf50; /* Dark green header background color */
+  color: white;
+  padding: 1em;
+  text-align:center;
+}
+
+.nav-buttons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15em; /* Add space above the navigation buttons */
+}
+
+.nav-buttons a {
+  margin: 10em; /* Add horizontal spacing between buttons */
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+
+.header {
+  background-color: #4caf50; /* Dark green header background color */
+  color: white;
+  padding: 1em;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Align items vertically in the center */
+  justify-content: space-between; /* Add space between logo and navigation */
+}
+
+.logo img {
+  max-width: 150px; /* Adjust the max width of the logo */
+}
+
+.navigation ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation li {
+  margin-right: 20px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+
+.home img {
+  max-width: 20%; /* Make sure the image doesn't exceed its container width */
+  height:auto; /* Maintain the aspect ratio */
+  margin-top: 2px; /* Add some space above the image */
+}
+
+
+/* Home.css */
+.home {
+  text-align:left;
+}
+
+.content-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.home-image {
+  max-width: 100%;
+  height:auto;
+  margin-right: 20px; /* Adjust the margin to add space between image and text */
+}
+
+
